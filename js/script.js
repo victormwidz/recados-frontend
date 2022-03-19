@@ -2,7 +2,7 @@
 
 const tableBody = document.getElementById("table-body");
 const addItem = document.getElementById("add-item");
-const API_URL = "http://localhost:8080/recados"
+const API_URL = "https://recados-backend-victor.herokuapp.com/recados"
 
 async function getInfos() {
   const response = await fetch(API_URL);
